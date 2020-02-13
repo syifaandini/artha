@@ -1,34 +1,9 @@
 // lOADER
-$(window).load(function()  {
-  var counter = 0;
-
-  // Start the changing images
-  setInterval(function() {
-    if(counter == 9) {
-      counter = 0;
-    }
-    counter++;
-  }, 3000);
-
-  // Set the percentage off
-  loading();
+$(window).on('load', function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
 });
 
-function loading(){
-  var num = 0;
-
-  for(i=0; i<=100; i++) {
-    setTimeout(function() {
-      $('.loader span').html(num+'%');
-
-      if(num == 100) {
-        loading();
-      }
-      num++;
-    },i*120);
-  };
-
-}
 
 // NAVBAR SCROLL HIDE-SHOW
 var prevScrollpos = window.pageYOffset;
@@ -52,9 +27,6 @@ $( document ).ready(function() {
     function() {
       $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
     },
-    function() {
-      $("#artha-project1-img").attr("src", "images/project/gunung.jpg");
-    }
   );
 
   $("#artha-project2-all").hover(
