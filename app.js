@@ -22,7 +22,7 @@ window.onscroll = function() {
 }
 
 // PROJECT - GIFs
-$( document ).ready(function() {
+// $( document ).ready(function() {
   $("#artha-project1-all").hover(
     function() {
       $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
@@ -49,4 +49,4 @@ $( document ).ready(function() {
       $("#artha-project3-img").attr("src", "images/project/gunung2.jpg");
     }
   );
-});
+// });
