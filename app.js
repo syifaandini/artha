@@ -1,5 +1,15 @@
 // lOADER
+$('html, body').css({
+  'overflow': 'hidden',
+  'height': '100%'
+})
+
 $(window).on('load', function () {
+    $('html, body').css({
+      'overflow': 'auto',
+      'height': 'auto'
+    })
+    
     const loader = document.querySelector(".loader");
     loader.className += " hidden"; // class "loader hidden"
 });
@@ -22,7 +32,7 @@ window.onscroll = function() {
 }
 
 // PROJECT - GIFs
-// $( document ).ready(function() {
+$( document ).ready(function() {
   $("#artha-project1-all").hover(
     function() {
       $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
@@ -49,4 +59,4 @@ window.onscroll = function() {
       $("#artha-project3-img").attr("src", "images/project/gunung2.jpg");
     }
   );
-// });
+});
