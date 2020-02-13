@@ -18,7 +18,7 @@ body{
 }
 
 .loader img {
-    width: 100px;
+    /* width: 100px; */
 }
 
 .loader.hidden {
@@ -33,20 +33,6 @@ body{
     }
 }
 
-
-/* .loader{
-  width: 100px;
-  height: 80px;
-  position: absolute;
-  top: 0; right: 0; left: 0; bottom: 0;
-  margin: auto;
-}
-
-.loader span{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 200%;
-} */
-
 #navbarArtha{
   padding-left: 10%;
   padding-right: 10%;
@@ -58,23 +44,6 @@ body{
   display: block;
   transition: top 0.3s;
   overflow: inherit;
-}
-
-/* @keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
-
-nav{
-  /* This section calls the slideInFromLeft animation we defined above */
-  /* animation: 0.5s ease-out 0s 1 slideInFromLeft;
-
-  background: #333;
-  padding: 30px; */
 }
 
 .hide {
@@ -100,7 +69,6 @@ nav{
 /* TITLE */
 #title{
   background-color: #91A1D5;
-  /* background-color: #5a5c95; */
   /* display: flex;     /* ini tadinya di intro-body */ */
   /* justify-content: center; */
   align-items: center;
@@ -108,7 +76,6 @@ nav{
   padding-left: 15%;
   padding-right: 15%;
   color: white;
-  /* height: 100%; */
 }
 
 .logo{
@@ -146,8 +113,6 @@ nav{
   font-size: 200%;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  /* text-align: center; */
-  /* padding-bottom: 35px; */
 }
 
 .heading-unik{
@@ -160,11 +125,8 @@ nav{
 }
 
 p{
-  /* font-family: 'Merriweather', serif; */
   font-family: 'Montserrat', sans-serif;
   padding-top: 25px;
-  /* color: #5a5c95; */
-  /* font-weight: bold; */
   font-size: 16px;
 }
 
