@@ -18,10 +18,10 @@ body{
 }
 
 .loader img {
-    /* width: 100px; */
+    width: 100px;
 }
 
-.loader.hidden {
+.loader-hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
 }
