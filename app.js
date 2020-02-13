@@ -33,7 +33,7 @@ window.onscroll = function() {
 $(document).ready(function() {
   $("#artha-project1-all").hover(
     function() {
-      $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
+      $("#artha-project1-img").attr("src", "images/project/uhuy.gif");
     },
     function() {
       $("#artha-project1-img").attr("src", "images/project/gunung.jpg");
