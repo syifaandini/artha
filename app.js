@@ -27,6 +27,9 @@ $( document ).ready(function() {
     function() {
       $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
     },
+    function() {
+      $("#artha-project1-img").attr("src", "images/project/gunung.jpg");
+    }
   );
 
   $("#artha-project2-all").hover(
