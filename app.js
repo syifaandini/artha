@@ -1,5 +1,5 @@
 // lOADER
-$(document).ready(function() {
+$(window).load(function()  {
   var counter = 0;
 
   // Start the changing images
