@@ -1,17 +1,15 @@
 // lOADER
 $('html, body').css({
-  'overflow': 'hidden',
-  'height': '100%'
-})
+  overflow: 'hidden',
+  height: '100%'
+});
 
-$(window).on('load', function () {
-    $('html, body').css({
-      'overflow': 'auto',
-      'height': 'auto'
-    })
-    
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden"; // class "loader hidden"
+$(window).on('load', function() {
+  $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+  })
+  $("#loading").addClass("loader-hidden");
 });
 
 
@@ -32,7 +30,7 @@ window.onscroll = function() {
 }
 
 // PROJECT - GIFs
-$( document ).ready(function() {
+$(document).ready(function() {
   $("#artha-project1-all").hover(
     function() {
       $("#artha-project1-img").attr("src", "images/project/gedungsate.gif");
@@ -44,7 +42,7 @@ $( document ).ready(function() {
 
   $("#artha-project2-all").hover(
     function() {
-      $("#artha-project2-img").attr("src", "images/project/merbabu.gif");
+      $("#artha-project2-img").attr("src", "images/project/uhuy.gif");
     },
     function() {
       $("#artha-project2-img").attr("src", "images/project/langit.jpg");
@@ -53,7 +51,7 @@ $( document ).ready(function() {
 
   $("#artha-project3-all").hover(
     function() {
-      $("#artha-project3-img").attr("src", "images/project/merbabu2.gif");
+      $("#artha-project3-img").attr("src", "images/project/uhuy.gif");
     },
     function() {
       $("#artha-project3-img").attr("src", "images/project/gunung2.jpg");
