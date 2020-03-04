@@ -1,14 +1,24 @@
 // lOADER
+
 $('html, body').css({
   overflow: 'hidden',
   height: '100%'
 });
 
+// var bar = new ldBar(".myItem1");
+//
+// bar.set(
+//   100,
+//   false
+// );
+
 $(window).on('load', function() {
+
   $('html, body').css({
     overflow: 'auto',
     height: 'auto'
   })
+
   $("#loading").addClass("loader-hidden");
 });
 
@@ -31,30 +41,48 @@ window.onscroll = function() {
 
 // PROJECT - GIFs
 $(document).ready(function() {
-  $("#artha-project1-all").hover(
+  $("#project1-all").hover(
     function() {
-      $("#artha-project1-img").attr("src", "images/project/uhuy.gif");
+      $("#project1-img").attr("src", "images/project/floor.gif");
     },
     function() {
-      $("#artha-project1-img").attr("src", "images/project/gunung.jpg");
+      $("#project1-img").attr("src", "images/project/floor.jpg");
     }
   );
 
-  $("#artha-project2-all").hover(
+  $("#project2-all").hover(
     function() {
-      $("#artha-project2-img").attr("src", "images/project/uhuy.gif");
+      $("#project2-img").attr("src", "images/project/mockuptronic.gif");
     },
     function() {
-      $("#artha-project2-img").attr("src", "images/project/langit.jpg");
+      $("#project2-img").attr("src", "images/project/mockuptronic.jpg");
     }
   );
 
-  $("#artha-project3-all").hover(
+  $("#project3-all").hover(
     function() {
-      $("#artha-project3-img").attr("src", "images/project/uhuy.gif");
+      $("#project3-img").attr("src", "images/project/mountoya.gif");
     },
     function() {
-      $("#artha-project3-img").attr("src", "images/project/gunung2.jpg");
+      $("#project3-img").attr("src", "images/project/mountoya.png");
+    }
+  );
+
+  $("#project4-all").hover(
+    function() {
+      $("#project4-img").attr("src", "images/project/sf.gif");
+    },
+    function() {
+      $("#project4-img").attr("src", "images/project/sf.jpg");
+    }
+  );
+
+  $("#project5-all").hover(
+    function() {
+      $("#project5-img").attr("src", "images/project/tni.gif");
+    },
+    function() {
+      $("#project5-img").attr("src", "images/project/tni.png");
     }
   );
 });
