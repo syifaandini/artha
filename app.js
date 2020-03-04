@@ -1,16 +1,9 @@
 // lOADER
-
 $('html, body').css({
   overflow: 'hidden',
   height: '100%'
 });
 
-// var bar = new ldBar(".myItem1");
-//
-// bar.set(
-//   100,
-//   false
-// );
 
 $(window).on('load', function() {
 
@@ -46,7 +39,7 @@ $(document).ready(function() {
       $("#project1-img").attr("src", "images/project/floor.gif");
     },
     function() {
-      $("#project1-img").attr("src", "images/project/floor.jpg");
+      $("#project1-img").attr("src", "images/project/floor.png");
     }
   );
 
@@ -55,7 +48,7 @@ $(document).ready(function() {
       $("#project2-img").attr("src", "images/project/mockuptronic.gif");
     },
     function() {
-      $("#project2-img").attr("src", "images/project/mockuptronic.jpg");
+      $("#project2-img").attr("src", "images/project/mockuptronic.png");
     }
   );
 
@@ -73,7 +66,7 @@ $(document).ready(function() {
       $("#project4-img").attr("src", "images/project/sf.gif");
     },
     function() {
-      $("#project4-img").attr("src", "images/project/sf.jpg");
+      $("#project4-img").attr("src", "images/project/sf.png");
     }
   );
 
@@ -83,6 +76,15 @@ $(document).ready(function() {
     },
     function() {
       $("#project5-img").attr("src", "images/project/tni.png");
+    }
+  );
+
+  $("#project6-all").hover(
+    function() {
+      $("#project6-img").attr("src", "images/project/tni.gif");
+    },
+    function() {
+      $("#project6-img").attr("src", "images/project/tni.png");
     }
   );
 });
