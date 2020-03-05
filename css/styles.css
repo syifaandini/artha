@@ -35,7 +35,6 @@ body{
     }
 }
 
-
 /* NAVBAR */
 #navbarArtha{
   padding-left: 10%;
@@ -71,7 +70,6 @@ body{
 /* TITLE */
 #title{
   background-color: #91A1D5;
-  /* align-items: center; */
   min-height: 100vh;
   padding-left: 15%;
   padding-right: 15%;
@@ -311,26 +309,48 @@ figure.effect-lily:hover p {
 /* CLIENT */
 #client{
   background-color: #eee;
-  padding: 100px 15% 0;
+  padding: 100px;
 }
 
 #client .heading{
-  padding-bottom: 120.5px;
+  padding-bottom: 50px;
   font-size: 200%;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
+.box-client{
+  display: flex;
+  align-items: center;
+  padding: 25px 40px;
+}
+
+.logo-client{
+  width: 200px;
+	opacity: 0.5;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.logo-client:hover{
+	opacity: 1;
+}
+
+
+@media (max-width: 991px ) {
+  #core{
+    height: 100%;
+  }
+}
 
 /* TEAM */
 #team{
-  /* background-color: #393e46; */
   background-color: #91A1D5;
-  /* height: calc(100vh - 55px); */
   justify-content: center;
   align-items: center;
   padding: 100px 15% 50px;
-  /* color: white; */
 }
 
 #team h4{
@@ -342,7 +362,6 @@ figure.effect-lily:hover p {
   padding-top: 0;
 }
 
-/* TEAM */
 .team-all{
   display: -webkit-box;
   display: -moz-box;
@@ -379,9 +398,22 @@ figure.effect-lily:hover p {
   width: 100px;
 }
 
+/* FOOTER */
 #contact{
   background-color: #F5A406;
-  padding: auto 15%;
+}
+
+#contact img{
+  width: 200px;
+  margin: auto;
+}
+
+#contact p{
+  margin-bottom: 0;
+  width: 75%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-top: 0;
 }
 
 .fab{
@@ -394,9 +426,14 @@ figure.effect-lily:hover p {
 }
 
 .footer{
-  padding-top: 2%;
+  padding: 20px 50px;
   text-align: left;
   font-size: 0.8rem;
+}
+
+.box-footer{
+  display: flex;
+  align-items: center;
 }
 
 h6{
@@ -406,45 +443,28 @@ h6{
   font-size: 14px;
 }
 
-#contact p{
-  margin-bottom: 0;
-  width: 75%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  padding-top: 0;
-}
-
-.footer-logo{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
-}
-
-#contact img{
-  width: 20%;
-  margin: auto;
-}
-
-/* CLIENT */
-.logo-client{
-  width: 200px;
-  padding-bottom: 100px;
-
-	opacity: 0.5;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.logo-client:hover{
-	opacity: 1;
-}
-
-
 @media (max-width: 991px ) {
-  #core{
-    height: 100%;
+  .footer{
+    text-align: center;
+  }
+
+  #contact p{
+    width: 100%;
+  }
+
+  h6{
+    margin-top: 16px;
+  }
+
+  .fab{
+    margin: auto;
+  }
+
+  .fa-instagram{
+    margin-right: 5px;
+  }
+
+  .fa-youtube{
+    margin-left: 5px;
   }
 }
