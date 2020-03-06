@@ -79,6 +79,7 @@ body{
 }
 
 .logo{
+  padding-top: 10%;
   width: 50%;
 }
 
@@ -399,8 +400,8 @@ figure.effect-lily:hover p {
 
 /* FOOTER */
 #contact{
-	
-background-color: #F8B901;
+  /* background-color: #F5A406; */
+  background-color: #F8B901;
 }
 
 #contact img{
