@@ -150,7 +150,7 @@ p{
   .work-img{
     width: 900px;
   }
-  
+
   #core .heading{
     margin-left: 10%;
     margin-right: 10%;
@@ -177,6 +177,13 @@ p{
   /* font-size: 200%; */
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+@media (max-width: 991px){
+  #project .heading{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 /* GRID PROJECT */
@@ -506,18 +513,28 @@ h6{
   }
 
   #contact img{
-    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    width: 80%;
     margin: auto;
   }
 
   #contact p{
     width: 100%;
-    font-size: 16px;
+    font-size: 32px;
+  }
+
+  #contact a{
+    font-size: 25px;
+  }
+
+  .footer-content{
+    padding-bottom: 30px;
   }
 
   h6{
     margin-top: 16px;
-    font-size: 20px;
+    font-size: 32px;
   }
 
   .fab{
@@ -525,10 +542,10 @@ h6{
   }
 
   .fa-instagram{
-    margin-right: 5px;
+    margin-right: 30px;
   }
 
   .fa-youtube{
-    margin-left: 5px;
+    margin-left: 30px;
   }
 }
