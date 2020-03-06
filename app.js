@@ -106,8 +106,8 @@ $(document).ready(function() {
 });
 
 function parallax(e, target, layer) {
-    var layer_coeff = 10 / layer;
+    var layer_coeff = 5 / layer;
     var x = ($(window).width() - target.offsetWidth-40) / 2 - (e.pageX - ($(window).width() / 2)) / layer_coeff;
-    var y = ($(window).height() - target.offsetHeight-30) / 2 - (e.pageY - ($(window).height() / 2)) / layer_coeff;
+    var y = ($(window).height() - target.offsetHeight-30) / 2 - (e.pageY - ($(window).height() / 1)) / layer_coeff;
     $(target).offset({ top: y ,left : x });
 };
