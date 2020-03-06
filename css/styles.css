@@ -455,7 +455,7 @@ figure.effect-lily:hover p {
     width: 300px;
   }
   #team h4{
-    font-size: 32px;
+    font-size: 34px;
   }
   #team p{
     font-size: 32px;
@@ -514,7 +514,7 @@ h6{
 
   #contact img{
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     width: 80%;
     margin: auto;
   }
@@ -534,7 +534,7 @@ h6{
 
   h6{
     margin-top: 16px;
-    font-size: 32px;
+    font-size: 34px;
   }
 
   .fab{
