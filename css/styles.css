@@ -328,6 +328,8 @@ figure.effect-lily:hover p {
 .logo-client{
   width: 200px;
 	opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -400,7 +402,6 @@ figure.effect-lily:hover p {
 
 /* FOOTER */
 #contact{
-  /* background-color: #F5A406; */
   background-color: #F8B901;
 }
 
