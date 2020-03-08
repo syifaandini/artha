@@ -344,14 +344,14 @@ figure.effect-lily:hover p {
 
 } */
 
-/* @media screen and (max-width: 69.5em) {
+@media screen and (max-width: 69.5em) {
 	.grid figure {
 		width: 50%;
 	}
 	.grid figure figcaption {
 		font-size: 90%;
 	}
-} */
+}
 
 /* 41.5em cenah */
 @media screen and (max-width: 991px) {
